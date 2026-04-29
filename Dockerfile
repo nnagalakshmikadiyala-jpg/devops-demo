@@ -1,4 +1,4 @@
-FROM node:22-bookworm-slim
+FROM node:20-alpine3.22
 WORKDIR /app
 COPY . .
 RUN npm install
